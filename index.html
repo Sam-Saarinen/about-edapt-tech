@@ -1,48 +1,101 @@
 <html>
-<body>
-Old Content:
-About
-
-Who are we?
-Edapt Technologies is a company founded in 2019 by (S)am. Based on years of AI, education, and product design research, we are now releasing services to manage and optimize human learning.
-
-What are our values?
-Edapt Technologies is committed to providing quality education worldwide. Our desire is to produce scalable educational interventions of proven pedagogical efficacy with equitable access to all students. For this reason, we invest heavily in research and we provide our solutions for free to students.
-
-
-How do we make money?
-Edapt Technologies offers management and analytics APIs for each of its services. For a small subscription fee per managed student, educational institutions and EdTech companies are able to track the progress of students who have opted in, assign content to them, and integrate our services with their larger platform and vision. We also maintain Peer-to-Peer (P2P) marketplaces for the sale of specialized content related to some of our services.
-
-Have ideas about the economics of educational innovation? Please reach out to us at contact@edapt.app.
-
-Contact Us
-Thanks for visiting Edapt Technologies at edapt.app. General inquiries should be directed to contact@edapt.app. Business inquiries should be sent to sam@edapt.app.
-
-Memory
-
-Remember forever, for 5 minutes a day. That’s the promise of the new study aid Edapt Technologies is releasing this Summer. With this app, you’ll be able to choose what to remember. Whether it’s vocabulary, definitions, processes, lines, speeches, faces, or shortcuts, this app has got your back. Check out some of the technologies this app is built on:
-
-Spaced Repetition
-As memories become stronger, they last longer. By reviewing at just the right times, you can space out your review in increasing intervals. Remember anything forever with minimal effort by allowing this app to schedule when you review.
-
-Machine Learning
-Predicting the future is hard, and not everybody is the same. That’s why we use advanced statistical methods to figure out how long each of your memories will last. Combine that with our research into rehearsal scheduling, and you’ve got an app that adapts to your learning speed and knowledge.
-
-Gamification
-No one wants something they do every day to be boring! That’s why we give you a direct incentive to practice. The more things you remember in 5 minutes, the more new facts you’re able to add to the app for the next day. But use those points fast! They expire in 36 hours.
-
-
-Interested?
-Sign up to be emailed when our app goes live for Android and iOS. Plus, get 5 quick tips for improving your memory, delivered straight to your inbox.
-
-Get Release Notifications! (And Memory Tips)
-Email
-Interested in the Student Management Platform?
-Are you an educational institution, EdTech platform, or independent teacher? We will be simultaneously releasing API’s and an online service for organizations interested in managing and tracking student memorization. Fill out our contact form to request more information and be notified when our platform goes live.
-
-[Link to Contact Form]
-
-Edapt Technologies
-Adaptive Education Solutions
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Edapt Tech</title>
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link href="css/site.css" rel="stylesheet">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+  </head>
+  <body>
+<!--    https://ionicframework.com/docs/layout/structure   -->
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Edapt Technologies</ion-title>
+        <ion-subtitle>Adaptive Educational Solutions</ion-subtitle>
+      </ion-toolbar>
+    </ion-header>
+    
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Mission</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <p><strong>To make efficient, sustainable education available to every person worldwide.</strong></p>
+                <p>At Edapt Technologies, we believe that education pays the highest dividends in our future. We also believe that the time is right for innovations in computational technology, pedagogy, and business to make excellent education available sustainably to those who would most benefit from it.</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Our Story</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <p>Edapt Technologies was founded in 2019 by <a href="sam-saarinen@github.io">(S)am</a>. We are actively developing prototypes of apps to improve the efficiency of assessment, instruction, and review using machine learning.</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col style="min-width:22em">
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Cultural Values</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <ion-list>
+                  <ion-item>All learning starts with humility.</ion-item>
+                  <ion-item>Communication creates consensus.</ion-item>
+                  <ion-item>We create win-win solutions.</ion-item>
+                </ion-list>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      
+      <ion-card class="centered">
+        <ion-card-header>
+          <ion-card-title>Our Services</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>In addition to our apps (read more below), <strong>we offer consulting services in education</strong>. We specialize in applying research-backed pedagogical principles and computational technology to novel educational problems. </p>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <ion-grid><ion-row>
+                  <ion-col><img src="./img/quizius.png"></ion-col>
+                  <ion-col><p>quizi.us is a tool for generating and administering automatically graded assessments made of both student and instructor written questions and answers. These assessments are adaptive, only asking questions that the system estimates will be most useful for each student. quizi.us also gives detailed student and class-level insights to the instructor and makes specific pedagogical recommendations.</p></ion-col>
+                  </ion-row></ion-grid>
+              </ion-col>
+              <ion-col>
+                <ion-grid><ion-row>
+                  <ion-col><img src="./img/studycoach.png"></ion-col>
+                  <ion-col><p>study.coach is a free app that makes studying more effective. It combines scientifically proven techniques like spaced repetition, interleaved practice, multi-sensory encoding, and active recall to give fun and focused studying in only 5 minutes. It personalizes each learner's experience so that they learn more, faster. Teachers can use study.coach to automatically create micro-assignments involving vocabulary, problem-solving, or concept application, and it can report at any time which students know what material.</p></ion-col>
+                  </ion-row></ion-grid>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card class="centered">
+        <ion-card-header>
+          <ion-card-title>Contact Us</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Interested in testing out our apps or hiring our consulting services?</p>
+          <ion-button shape="round" class="gradient" href="mailto:contact@edapt.app">email contact@edapt.app</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
+    
+<!--    There's an issue with content not scrolling to the bottom. Not sure of the cause, so I'm using a workaround in the CSS.-->
+  </body>
 </html>
